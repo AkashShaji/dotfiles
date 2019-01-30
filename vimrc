@@ -43,7 +43,7 @@ Plugin 'ajh17/VimCompletesMe'
 Plugin 'SirVer/ultisnips'
 
 
-" C vim
+" C vim plugin
 Plugin 'c.vim'
 
 " Fuzzy File Finder
