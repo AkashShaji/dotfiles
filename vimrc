@@ -42,6 +42,12 @@ Plugin 'ajh17/VimCompletesMe'
 " Snippets
 Plugin 'SirVer/ultisnips'
 
+"vue
+Plugin 'posva/vim-vue'
+
+" CSS coloring
+Plugin 'ap/vim-css-color'
+
 
 " Fuzzy File Finder
 Plugin 'kien/ctrlp.vim'
