@@ -42,9 +42,8 @@ Plugin 'ajh17/VimCompletesMe'
 " Snippets
 Plugin 'SirVer/ultisnips'
 
-
-" C vim plugin
-Plugin 'c.vim'
+"vue
+Plugin 'posva/vim-vue'
 
 " Fuzzy File Finder
 Plugin 'kien/ctrlp.vim'
@@ -66,6 +65,10 @@ Plugin 'Yggdroot/indentLine'
 
 " Vundle Closing
 call vundle#end()
+
+" CSS coloring
+Plugin 'ap/vim-css-color'
+
 
 let g:NERDTreeDirArrows=0
 

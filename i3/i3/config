@@ -51,13 +51,12 @@ bindsym $mod+Shift+q kill
 bindsym $mod+q kill
 
 #change background
-exec --no-startup-id feh --bg-fill ~/Desktop/patterns_green_light_dark_85561_1920x1080.jpg
+exec --no-startup-id feh --bg-fill ~/Desktop/blue.png
 #transparency
 exec compton 
 
 #lock screen
-bindsysm $mod+Shift+x exec "i3lock"
-
+bindsysm $mod+f1 exec "i3lock --color=000000"
 #gaps inner 10
 #gaps outer 5
 
@@ -166,10 +165,8 @@ exec xscreensaver &
 # bindsym F4
 # bindsym F5
 # bindsym F6
-bindsym $mod+F6 exec "google-play-music-desktop-player"
 # bindsym F8
 # bindsym F9
-bindsym $mod+F10 exec "google-play-music-desktop-player"
 # bindsym F11
 # bindsym F12
 
